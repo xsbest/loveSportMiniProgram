@@ -1,0 +1,26 @@
+<view class="container">
+  <view class="running" data-sport="running" bindtap="goTo">
+    <image src="../../images/running.png"></image>
+    <view>跑步</view>
+  </view>
+  <view class="jogging" data-sport="jogging" bindtap="goTo">
+    <image src="../../images/jogging.png"></image>
+    <view>快走</view>  
+  </view>
+  <view class="skipping" data-sport="skipping" bindtap="goTo">
+    <image src="../../images/skipping.png"></image>
+    <view>跳绳</view>
+  </view>
+  <view class="swimming" data-sport="swimming" bindtap="goTo">
+    <image src="../../images/swimming.png"></image>
+    <view>游泳</view>
+  </view>
+  <view class="hiitJunior" data-sport="hiitJunior" bindtap="goTo">
+    <image src="../../images/hiitJunior.png"></image>
+    <view>HIIT初级燃脂</view>
+  </view>
+  <view class="hiitSenior" data-sport="hiitSenior" bindtap="goTo">
+    <image src="../../images/hiitSenior.png"></image>
+    <view>HIIT炼狱级燃脂</view>
+  </view>
+</view>

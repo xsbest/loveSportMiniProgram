@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/running/index",
+
+    "pages/chooseSport/index",
+    "pages/index/index"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "爱运动小程序",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "消息",
+      "iconPath": "./images/msg.png",
+      "selectedIconPath": "./images/selectedMsg.png"
+    }, {
+      "pagePath": "pages/chooseSport/index",
+      "text": "开始运动",
+      "iconPath": "./images/start.png",
+      "selectedIconPath": "./images/selectedStart.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

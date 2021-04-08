@@ -1,0 +1,10 @@
+<view class="container">
+ {{sportType === 'jogging'? '快走':'跑步'}}页
+<view>
+ <map longitude="113.93041" latitude="22.53332"></map>
+</view>
+
+ <view>
+ <view class="btn">开始</view>
+ </view>
+</view>

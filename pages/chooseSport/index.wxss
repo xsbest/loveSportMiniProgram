@@ -1,0 +1,30 @@
+.container{
+  height: 80vh;
+  margin: 3vh;
+  border: 6rpx solid #ccc;
+  border-radius: 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-top: 80rpx;
+}
+.container > view{
+  width: 41vw;
+  height: 120px;
+  margin: 1vh;
+  padding: 2vh;
+  text-align: center;
+  border-radius: 20rpx;
+  border: 1rpx solid #ccc;
+  box-sizing: border-box;
+}
+
+.container view image{
+  width: 20vw;
+  height: 75px;
+}
+
+.btn{
+  background-color: rgb(143, 218, 109);
+  color: #fff;
+}

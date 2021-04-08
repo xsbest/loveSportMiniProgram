@@ -1,0 +1,12 @@
+
+.btn{
+  background-color: rgb(168, 218, 155);
+  color: #fff;
+  font-weight: normal;
+  width:  200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 18px;
+}
