@@ -1,0 +1,3 @@
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" polyline="{{polyline}}"show-location style="width: 100%; height: 300px;"></map>
+<button bindtap="start">开始</button>
+<button bindtap="end">结束</button>

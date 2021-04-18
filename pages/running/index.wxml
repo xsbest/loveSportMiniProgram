@@ -1,10 +1,9 @@
 <view class="container">
- {{sportType === 'jogging'? '快走':'跑步'}}页
-<view>
- <map longitude="113.93041" latitude="22.53332"></map>
-</view>
-
- <view>
- <view class="btn">开始</view>
- </view>
+  <!-- {{sportType === 'jogging'? '快走':'跑步'}}页 -->
+  <view>
+    <map polyline="{{polyline}}" show-location="{{true}}" class="map" scale="18" longitude="{{curlongitude}}" latitude="{{curlatitude}}" ></map>
+  </view>
+  <view>
+    <view class="btn">开始</view>
+  </view>
 </view>

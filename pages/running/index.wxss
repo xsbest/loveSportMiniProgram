@@ -10,3 +10,7 @@
   line-height: 200rpx;
   font-size: 18px;
 }
+.map{
+  width: 100vw;
+  height: 300px;
+}

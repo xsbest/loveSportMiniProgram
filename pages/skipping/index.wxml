@@ -1,0 +1,9 @@
+<view class="container">
+ <view class="clock">
+ {{min}}:{{seconds}}:{{ms}}
+ </view>
+  <view>
+    <view class="btn-start" bindtap="start" wx:if="{{btnAbled}}">开始</view>
+    <view class="btn-end" bindtap="end" wx:if="{{!btnAbled}}">结束</view>
+  </view>
+</view>
