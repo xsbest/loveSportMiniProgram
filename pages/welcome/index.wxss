@@ -1,0 +1,31 @@
+/* pages/register/index.wxss */
+@keyframes stepIn{
+  0%{
+  }
+  100%{ opacity: 1;  }
+}
+.content{
+  background-color: rgb(84, 61, 99);
+  color: #fff;
+  height: 100vh;
+  position: relative;
+}
+.first-img{
+  position: absolute;
+  top: 200px;
+  width: 500px;
+  height: 150px;
+  opacity: 0.1;
+  animation: stepIn 4s forwards;
+}
+
+.textStyle{
+  position: absolute;
+  bottom: 100px;
+  right: 30px;
+  font-weight: bold;
+  color: #ccc;
+  opacity: 0.1;
+  font-size: 18px;
+  animation: stepIn 4s forwards;
+}

@@ -2,6 +2,9 @@
  <view class="clock">
  {{min}}:{{seconds}}:{{ms}}
  </view>
+ <view>
+  消耗卡路里：
+ </view>
   <view>
     <view class="btn-start" bindtap="start" wx:if="{{btnAbled}}">开始</view>
     <view class="btn-end" bindtap="end" wx:if="{{!btnAbled}}">结束</view>

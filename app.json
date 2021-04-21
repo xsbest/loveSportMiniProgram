@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/register/index",
+    "pages/welcome/index",
     "pages/chooseSport/index",
     "pages/test/index",
     "pages/running/index",
