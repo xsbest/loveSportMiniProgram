@@ -3,7 +3,7 @@
  {{min}}:{{seconds}}:{{ms}}
  </view>
  <view>
-  消耗卡路里：
+  消耗卡路里：{{cal}}大卡
  </view>
   <view>
     <view class="btn-start" bindtap="start" wx:if="{{btnAbled}}">开始</view>

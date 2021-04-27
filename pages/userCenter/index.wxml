@@ -1,0 +1,53 @@
+<!--pages/userCenter/index.wxml-->
+<view class="content">
+  <view class="top">
+    <image src="../../images/userCenter-bg.png"></image>
+    <image src="../../images/focus.png"></image>
+  </view>
+  <view class="bottom">
+
+    <view class="operation">
+      <view class="circle">
+        <image src="{{userInfo.avatarUrl}}"></image>
+      </view>
+      <view class="text-area">
+        <text>{{userInfo.nickName}}</text>
+        <image src="../../images/man.png" wx:if="{{userInfo.gender === 1}}"></image>
+        <view style="font-size:10px">地区-{{userInfo.country}}</view>
+      </view>
+      <view style="position:absolute; right:5vh; top:3vh">
+        <button size="mini">修改资料</button>
+      </view>
+    </view>
+
+    <view class="cards">
+      <view  style="display:flex;flex-direction:row;justify-content:center;">
+        <view class="weight card">
+          体重：90kg
+        </view>
+        <view class="height card">
+          身高：174cm
+        </view>
+      </view>
+      <view style="display:flex;flex-direction:row;justify-content:center;">
+        <view class="card" style="margin-top: 2vh">
+          BMI:{{BMI}} ({{fat}})
+        </view>
+      </view>
+      <view style="margin-top:2vh;font-size:12px">BMI值</view>
+      <view class="BMI">
+        <view>＜=18.4</view>
+        <view>18.5~23.9</view>
+        <view>24.0~27.9</view>
+        <view>＞=28.0</view>
+      </view>
+
+      <view class="BMI-text">
+        <view>偏瘦</view>
+        <view>正常</view>
+        <view>过重</view>
+        <view>肥胖</view>
+      </view>
+    </view>
+  </view>
+</view>

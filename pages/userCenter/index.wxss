@@ -1,0 +1,142 @@
+/* pages/userCenter/index.wxss */
+.content {
+  position: relative;
+}
+
+.top {
+  height: 40vh;
+  background-color: #fff;
+  background-color: rgb(84, 61, 99);
+  overflow: hidden;
+}
+
+.top image{
+  width: 100vw;
+  height: 9vh;
+  margin-top: 4vh;
+}
+
+.top :nth-child(2){
+  margin-left: 60vw;
+}
+
+.bottom {
+  position: absolute;
+  border-radius: 10px;
+  height: 50vh;
+  width: 100vw;
+  top: 30vh;
+  background-color: #fff;
+  z-index: 200;
+}
+
+.operation {
+  height: 10vh;
+  width: 100vw;
+  position: relative;
+
+}
+
+.operation button {
+  border: 1px solid #000;
+  width: 20vw !important;
+  font-size: 12px !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-weight: 500;
+  background-color: rgb(84, 61, 99);
+  color: #fff;
+}
+
+.circle {
+  position: absolute;
+  width: 12vh;
+  height: 12vh;
+  /* background-color: rgb(84, 61, 99); */
+  border: 1vh solid #fff;
+  border-radius: 10vh;
+  margin-left: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  top: -5vh;
+}
+
+.circle image {
+  width: 13vh;
+  height: 13vh;
+}
+
+.text-area {
+  position: absolute;
+  left: 30vw;
+  font-size: 14px;
+  color: rgb(84, 61, 99);
+}
+
+.text-area image {
+  width: 3vw;
+  height: 3vh;
+}
+
+.card {
+  width: 45vw;
+  height: 15vh;
+  border-radius: 5px;
+  background-color: rgba(84, 61, 99, 0.6);
+  text-align: center;
+  line-height: 15vh;
+  color: #fff;
+}
+
+.height {
+  margin-left: 2vh;
+}
+
+.BMI {
+  display: flex;
+  flex-direction: row;
+}
+
+.BMI view {
+  width: 25vw;
+  height: 5vh;
+  text-align: center;
+  line-height: 5vh;
+  font-size: 12px;
+}
+
+.BMI :nth-child(1) {
+  color: rgb(229, 226, 226);
+  background-color: rgb(153, 153, 153);
+}
+
+.BMI :nth-child(2) {
+  color: rgb(216, 215, 215);
+  background-color: rgb(78, 194, 48);
+}
+
+.BMI :nth-child(3) {
+  color: rgb(194, 193, 193);
+  background-color: rgb(241, 239, 87);
+}
+
+.BMI :nth-child(4) {
+  color: rgb(229, 226, 226);
+  background-color: rgb(240, 173, 50);
+}
+
+.BMI-text {
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  height: 2vh;
+}
+
+.BMI-text view {
+  text-align: center;
+  width: 25vw;
+  height: 2vh;
+  color: #333;
+}

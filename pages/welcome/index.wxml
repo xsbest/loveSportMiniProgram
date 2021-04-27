@@ -1,5 +1,5 @@
 <!--pages/register/index.wxml-->
-<view class="content">
+<view class="content" bindtap="getUserInfoTap">
   <!-- <view>运动让我们保持自律
     keep focus</view> -->
   <image src="../../images/first.png" class="first-img"></image>

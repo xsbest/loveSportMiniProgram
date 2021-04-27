@@ -1,5 +1,5 @@
 .container{
-  height: 80vh;
+  height: 82vh;
   margin: 3vh;
   border: 6rpx solid #ccc;
   border-radius: 20rpx;
@@ -10,7 +10,7 @@
 }
 .container > view{
   width: 41vw;
-  height: 120px;
+  height: 25vh;
   margin: 1vh;
   padding: 2vh;
   text-align: center;

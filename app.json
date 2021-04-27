@@ -1,11 +1,12 @@
 {
   "pages": [
     "pages/register/index",
+    "pages/userCenter/index",
+    "pages/test/index",
+    "pages/skipping/index",
     "pages/welcome/index",
     "pages/chooseSport/index",
-    "pages/test/index",
     "pages/running/index",
-    "pages/skipping/index",
     "pages/index/index"
   ],
   "permission": {
@@ -29,10 +30,17 @@
       "selectedIconPath": "./images/selectedMsg.png"
     }, {
       "pagePath": "pages/chooseSport/index",
-      "text": "开始运动",
+      "text": "运动",
       "iconPath": "./images/start.png",
       "selectedIconPath": "./images/selectedStart.png"
-    }]
+    },
+    {
+      "pagePath": "pages/userCenter/index",
+      "text": "个人中心",
+      "iconPath": "./images/user.png",
+      "selectedIconPath": "./images/user-active.png"
+    }
+  ]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
