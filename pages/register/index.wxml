@@ -1,9 +1,14 @@
 <!--pages/register/index.wxml-->
 <view class="content">
+  <view class="box">
+    <view class="title">请输入你当前的身体数据</view>
   <form bindsubmit="formSubmit">
-    <input type="text" name="height" placeholder="请输入身高" style="border:1px solid #ccc"/>
-    <input type="text"  name="weight"  placeholder="请输入体重" style="border:1px solid #ccc"/>
+    <input type="text" name="height" placeholder="请输入身高(175cm输入175即可)" style="border:1px solid #ccc"/>
+    <input type="text"  name="weight"  placeholder="请输入体重(60kg输入60即可)" style="border:1px solid #ccc"/>
+    <input type="text"  name="age"  placeholder="请输入年龄(18岁输入18即可)" style="border:1px solid #ccc"/>
     <button form-type="submit">提交</button>
   </form>
+  </view>
+ 
 </view>
 

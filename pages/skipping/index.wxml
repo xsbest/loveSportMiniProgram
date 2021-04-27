@@ -1,12 +1,16 @@
 <view class="container">
- <view class="clock">
- {{min}}:{{seconds}}:{{ms}}
- </view>
- <view>
-  消耗卡路里：{{cal}}大卡
- </view>
+  <view class="clock">
+    {{min}}:{{seconds}}:{{ms}}
+  </view>
   <view>
-    <view class="btn-start" bindtap="start" wx:if="{{btnAbled}}">开始</view>
-    <view class="btn-end" bindtap="end" wx:if="{{!btnAbled}}">结束</view>
+    消耗卡路里：{{cal}}大卡
+  </view>
+  <view>
+    <view class="btn" style="display:flex; width:100vw; align-items:center;justify-content:center;">
+      <view wx:if="{{END}}" class="btn-end" bindtap="end" style="margin-right:5vw">结束</view>
+      <view wx:if="{{STOP}}" class="btn-stop" bindtap="stop">暂停</view>
+      <view class="btn-start" bindtap="start" wx:if="{{START}}">开始</view>
+    </view>
+
   </view>
 </view>

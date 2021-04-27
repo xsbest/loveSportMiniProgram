@@ -1,12 +1,14 @@
 {
   "pages": [
+    "pages/yoga/index",
+
+    "pages/chooseSport/index",
+    "pages/skipping/index",
+    "pages/running/index",
     "pages/register/index",
     "pages/userCenter/index",
     "pages/test/index",
-    "pages/skipping/index",
     "pages/welcome/index",
-    "pages/chooseSport/index",
-    "pages/running/index",
     "pages/index/index"
   ],
   "permission": {

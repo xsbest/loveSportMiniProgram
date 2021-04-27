@@ -24,4 +24,21 @@
   text-align: center;
   line-height: 200rpx;
   font-size: 18px;
+  
+}
+
+.btn-stop{
+  background-color: #ccc;
+  color: #fff;
+  font-weight: normal;
+  width:  200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+  text-align: center;
+  line-height: 200rpx;
+  font-size: 18px;
+}
+
+.btn{
+  margin-top: 20vh;
 }
