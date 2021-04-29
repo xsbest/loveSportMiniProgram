@@ -16,22 +16,25 @@
         <view style="font-size:10px">地区-{{userInfo.country}}</view>
       </view>
       <view style="position:absolute; right:5vh; top:3vh">
-        <button size="mini">修改资料</button>
+        <button size="mini" bindtap="editData">修改身体数据</button>
       </view>
     </view>
 
     <view class="cards">
       <view  style="display:flex;flex-direction:row;justify-content:center;">
         <view class="weight card">
-          体重：90kg
+          体重：{{weight}}kg
         </view>
         <view class="height card">
-          身高：174cm
+          身高：{{height}}cm
         </view>
       </view>
       <view style="display:flex;flex-direction:row;justify-content:center;">
         <view class="card" style="margin-top: 2vh">
-          BMI:{{BMI}} ({{fat}})
+          BMI: {{BMI}} ({{fat}})
+        </view>
+        <view class="card" style="margin-top: 2vh;margin-left:2vh">
+          年龄: {{age}}岁
         </view>
       </view>
       <view style="margin-top:2vh;font-size:12px">BMI值</view>

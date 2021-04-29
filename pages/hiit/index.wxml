@@ -2,7 +2,8 @@
 <view>
   <view wx:for="{{yogaList}}" wx:key="item" class="list-item" bindtap="play" data-url="{{item.videoUrl}}">
     <view style="position:absolute;z-index:100;font-weight:700;">chapter{{index+1}}</view>
-    <view style="position:absolute;z-index:100;top:6vh;font-size:12px">{{item.name}}</view>
+    <view style="position:absolute;z-index:100;top:6vh;font-size:12px;font-weight:700;">{{item.name}}</view>
     <image src="{{item.imageUrl}}"></image>
   </view>
+  <!-- <video src="https://static1.keepcdn.com/cms_static/video/2020/9/5/1599298214003_JUU3JTgzJUFEJUU2.mp4"></video> -->
 </view>

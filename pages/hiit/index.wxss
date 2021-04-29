@@ -1,6 +1,6 @@
 /* pages/yoga/index.wxss */
 .list-item {
-  height: 20vh;
+  height: 30vh;
   border:1px solid #ccc;
   border-radius: 2vh;
   background-color: #fff;
@@ -9,7 +9,7 @@
   position: relative;
 }
 .list-item image{
-  height: 30vh;
-  width: 90vw;
-  transform: translateY(-10vh);
+  height: 40vh;
+  width: 100vw;
+  transform: translateY(-5vh);
 }

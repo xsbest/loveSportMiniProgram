@@ -1,0 +1,15 @@
+/* pages/videoPlayer/index.wxss */
+
+.btn{
+  font-size: 14px;
+  font-weight: normal;
+  background-color: rgba(104, 89, 139, 0.774)!important;
+  margin-top: 20vh;
+}
+.btn1{
+  margin-top: 20vh;
+  font-size: 14px;
+  font-weight: normal;
+  background-color: rgba(228, 133, 105, 0.774)!important;
+
+}

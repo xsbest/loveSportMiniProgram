@@ -13,21 +13,8 @@ Page({
   },
   goTo(e){
     const sport = e.currentTarget.dataset['sport']
-    if(sport === 'running'  || sport === 'skipping'){
-      console.log(1);
       wx.navigateTo({
         url: '../'+sport+'/index?sport='+sport,
       })
-    }else if(sport === 'jogging'){
-      wx.navigateTo({
-        url: '../running/index?sport='+sport,
-      })
-    }
-    else{
-      wx.navigateTo({
-        url: '../movieTeaching/index?sport='+sport,
-      })
-    }
-
   }
 })

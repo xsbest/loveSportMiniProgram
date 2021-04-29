@@ -26,7 +26,7 @@ Page({
     }
     else{
       wx.request({
-        url:'http://81.71.142.81:3000/miniuser/register',
+        url:'http://81.71.142.81:3000/miniuser/editUserData',
         data:{
           userName:app.userInfo.nickName,
           weight:e.detail.value.weight,
@@ -38,10 +38,10 @@ Page({
         success:(res)=>{
           if(res.data.code === 200){
             wx.switchTab({
-              url: '../chooseSport/index',
+              url: '../userCenter/index',
             })
             wx.showToast({
-              title: '开干开干！！',
+              title: '修改成了！',
               icon:'none'
             })
           }

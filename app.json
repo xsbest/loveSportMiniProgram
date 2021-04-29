@@ -1,15 +1,17 @@
 {
   "pages": [
-    "pages/yoga/index",
-
+    "pages/welcome/index",
+    "pages/hiit/index",
+    "pages/userCenter/index",
+    "pages/exercisesHistory/index",
+    "pages/editPage/index",
+    "pages/videoPlayer/index",
+    "pages/register/index",
     "pages/chooseSport/index",
+    "pages/yoga/index",
     "pages/skipping/index",
     "pages/running/index",
-    "pages/register/index",
-    "pages/userCenter/index",
-    "pages/test/index",
-    "pages/welcome/index",
-    "pages/index/index"
+    "pages/test/index"
   ],
   "permission": {
     "scope.userLocation": {
@@ -26,8 +28,8 @@
   },
   "tabBar": {
     "list": [{
-      "pagePath": "pages/index/index",
-      "text": "消息",
+      "pagePath": "pages/exercisesHistory/index",
+      "text": "运动记录",
       "iconPath": "./images/msg.png",
       "selectedIconPath": "./images/selectedMsg.png"
     }, {

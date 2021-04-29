@@ -1,0 +1,19 @@
+/* pages/register/index.wxss */
+.content{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.title{
+  text-align: center;
+  font-size: 18px;
+  color: #666;
+}
+.box{
+  border: 2px solid #333;
+  border-radius: 2vh;
+}
+input{
+  height: 10vh;
+}

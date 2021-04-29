@@ -6,13 +6,15 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-top: 80rpx;
 }
 .container > view{
-  width: 41vw;
-  height: 25vh;
+  width: 40vw;
+  height: 30vh;
   margin: 1vh;
-  padding: 2vh;
+  padding: 4vh;
   text-align: center;
   border-radius: 20rpx;
   border: 1rpx solid #ccc;
@@ -23,6 +25,7 @@
   width: 20vw;
   height: 75px;
 }
+
 
 .btn{
   background-color: rgb(143, 218, 109);

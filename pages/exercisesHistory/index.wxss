@@ -10,6 +10,7 @@
 }
 .list-item image{
   height: 30vh;
-  width: 90vw;
-  transform: translateY(-10vh);
+  width: 45vw;
+  margin-left: 50vw;
+  transform: translateY(-6vh);
 }

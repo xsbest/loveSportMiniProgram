@@ -1,0 +1,12 @@
+<!--pages/videoPlayer/index.wxml-->
+<view style=" background-color: rgba(104, 89, 139, 0.5)!important; height:100vh">
+  <video id="videoPlayer" src="{{url}}" enable-play-gesture="{{true}}" object-fit="cover"
+  style="width:100vw;margin-top: 10vh;"
+  bindplay="play"
+  bindpause="pause"
+  bindended="end"
+  data-sporttype="yoga"
+  ></video>
+  <button bindtap="startExercise" type="primary" class="btn" wx:if="{{btnAbled}}">开始运动</button>
+  <button bindtap="endExercise" type="primary" class="btn1"  wx:if="{{!btnAbled}}">结束运动</button>
+</view>

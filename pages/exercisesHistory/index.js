@@ -1,0 +1,29 @@
+Page({
+  data: {
+    exerciseList:[{
+      date:'2021年4月28日21:23:37',
+      sportType:'跑步',
+      sportTime:'1分10秒',
+      imgUrl:'../../images/running.png',
+    },
+    {
+      date:'2021年4月28日21:28:02',
+      sportType:'跳绳',
+      sportTime:'20秒',
+      imgUrl:'../../images/skipping.png',
+    },
+    {
+      date:'2021年4月28日21:33:21',
+      sportType:'瑜伽',
+      sportTime:'12秒',
+      imgUrl:'../../images/yoga.png',
+    },
+    {
+      date:'2021年4月28日21:40:11',
+      sportType:'Hiit',
+      sportTime:'10秒',
+      imgUrl:'../../images/hiitSenior.png',
+    },
+  ]
+  }
+})
