@@ -73,7 +73,7 @@ Page({
       success (res) {
         if (res.confirm) {
           wx.request({
-            url: 'http://81.71.142.81:3000/miniuser/addUserData',
+            url: 'http://localhost:3000/miniuser/addUserData',
             data:{
               userName:that.data.userInfo.nickName,
               exercise:{

@@ -14,7 +14,7 @@ Page({
   onLoad: function (options) {
     let that = this;
     wx.request({
-      url: 'http://81.71.142.81:3000/miniuser/getUserData',
+      url: 'http://localhost:3000/miniuser/getUserData',
       data:{
         userName:app.userInfo.nickName
       },
@@ -60,7 +60,7 @@ Page({
   onShow: function () {
     let that = this;
     wx.request({
-      url: 'http://81.71.142.81:3000/miniuser/getUserData',
+      url: 'http://localhost:3000/miniuser/getUserData',
       data:{
         userName:app.userInfo.nickName
       },

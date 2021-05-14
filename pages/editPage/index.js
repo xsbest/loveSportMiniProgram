@@ -26,7 +26,7 @@ Page({
     }
     else{
       wx.request({
-        url:'http://81.71.142.81:3000/miniuser/editUserData',
+        url:'http://localhost:3000/miniuser/editUserData',
         data:{
           userName:app.userInfo.nickName,
           weight:e.detail.value.weight,
