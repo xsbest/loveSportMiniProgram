@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/welcome/index",
+    "pages/running/index",
     "pages/hiit/index",
     "pages/userCenter/index",
     "pages/exercisesHistory/index",
@@ -9,9 +10,7 @@
     "pages/register/index",
     "pages/chooseSport/index",
     "pages/yoga/index",
-    "pages/skipping/index",
-    "pages/running/index",
-    "pages/test/index"
+    "pages/skipping/index"
   ],
   "permission": {
     "scope.userLocation": {

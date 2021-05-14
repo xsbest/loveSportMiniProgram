@@ -2,7 +2,7 @@
   <view wx:for="{{exerciseList}}" wx:key="item" class="list-item" bindtap="play" data-url="{{item.videoUrl}}">
     <view style="position:absolute;z-index:100;font-weight:700;">{{item.date}}{{item.sportType}}</view>
     <view style="position:absolute;z-index:100;top:6vh;font-size:12px">{{item.sportTime}}
-      <view>消耗卡路里 100大卡</view>
+      <view>消耗卡路里 {{item.cal}}大卡</view>
     </view>
 
     <image src="{{item.imgUrl}}"></image>

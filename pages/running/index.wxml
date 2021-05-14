@@ -1,9 +1,15 @@
+<map id="map" longitude="{{longitude}}" latitude="{{latitude}}" scale="18" polyline="{{polyline}}"show-location style="width: 100%; height: 300px;"></map>
+
 <view class="container">
-  <!-- {{sportType === 'jogging'? '快走':'跑步'}}页 -->
-  <view>
-    <map polyline="{{polyline}}" show-location="{{true}}" class="map" scale="18" longitude="{{curlongitude}}" latitude="{{curlatitude}}" ></map>
+  <view class="clock">
+    {{min}}:{{seconds}}:{{ms}}
   </view>
   <view>
-    <view class="btn">开始</view>
+    <view style="display:flex; width:100vw; align-items:center;justify-content:center;">
+      <view wx:if="{{END}}" class="btn-end" bindtap="end" style="margin-right:5vw">结束</view>
+      <view wx:if="{{STOP}}" class="btn-stop" bindtap="stop">暂停</view>
+      <view class="btn-start" bindtap="start" wx:if="{{START}}">开始</view>
+    </view>
   </view>
+ 
 </view>
